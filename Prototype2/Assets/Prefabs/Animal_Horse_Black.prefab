@@ -136,10 +136,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2928583223375654746}
   - component: {fileID: 2928583223383249022}
-  - component: {fileID: 4678527400974001230}
   - component: {fileID: 2847097349731950408}
-  - component: {fileID: 6870873915282884062}
   - component: {fileID: 3277290642181780878}
+  - component: {fileID: 4502702421408667057}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -186,18 +185,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4678527400974001230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2928583223375903338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e76e747774d80f49a218ddf37c00d1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2847097349731950408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,18 +198,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &6870873915282884062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2928583223375903338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ba1e1911eca62f4c84915df410be954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &3277290642181780878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -236,6 +211,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 14.402275, y: 40.373688, z: 50}
   m_Center: {x: -0.0592041, y: 19.986868, z: 0}
+--- !u!114 &4502702421408667057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2928583223375903338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2928583223375903644
 GameObject:
   m_ObjectHideFlags: 0

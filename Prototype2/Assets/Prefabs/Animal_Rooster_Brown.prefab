@@ -562,10 +562,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5634148067713689435}
   - component: {fileID: 5634148067722745403}
-  - component: {fileID: 4037048814408953031}
   - component: {fileID: 6282802115229659696}
-  - component: {fileID: 2102020865937495689}
   - component: {fileID: 208076810427072913}
+  - component: {fileID: 8342148573759734574}
   m_Layer: 0
   m_Name: Animal_Rooster_Brown
   m_TagString: Untagged
@@ -614,18 +613,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4037048814408953031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634148067713345515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e76e747774d80f49a218ddf37c00d1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6282802115229659696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,18 +626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &2102020865937495689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5634148067713345515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ba1e1911eca62f4c84915df410be954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &208076810427072913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -664,6 +639,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.308405, y: 17.380735, z: 22.40323}
   m_Center: {x: 0.59928477, y: 8.0839405, z: -0.67305803}
+--- !u!114 &8342148573759734574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5634148067713345515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5634148067713347637
 GameObject:
   m_ObjectHideFlags: 0

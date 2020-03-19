@@ -227,10 +227,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4733521476756282289}
   - component: {fileID: 4733521476746640127}
-  - component: {fileID: 3281172413395665003}
   - component: {fileID: 6872552059818771602}
-  - component: {fileID: 1563415776374894681}
   - component: {fileID: 851974039230362954}
+  - component: {fileID: -1044907193866197967}
   m_Layer: 0
   m_Name: Animal_Chick
   m_TagString: Untagged
@@ -273,18 +272,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3281172413395665003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4733521476756095817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e76e747774d80f49a218ddf37c00d1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6872552059818771602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,18 +285,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
---- !u!114 &1563415776374894681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4733521476756095817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ba1e1911eca62f4c84915df410be954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &851974039230362954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -323,6 +298,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0499263, y: 8.116506, z: 7.814487}
   m_Center: {x: 0.15764765, y: 3.5582528, z: 0.35983357}
+--- !u!114 &-1044907193866197967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4733521476756095817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4733521476756096833
 GameObject:
   m_ObjectHideFlags: 0
